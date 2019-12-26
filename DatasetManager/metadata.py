@@ -1,5 +1,8 @@
 import numpy as np
 from music21 import analysis, stream
+from DatasetManager.helpers import SLUR_SYMBOL, \
+    PAD_SYMBOL, BEAT_SYMBOL, DOWNBEAT_SYMBOL
+
 
 
 class Metadata:
