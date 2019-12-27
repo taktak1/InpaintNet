@@ -1,8 +1,8 @@
 import random
 
-from MusicInpainting.utils.auxiliary_loss_trainer import AuxiliaryLossTrainer
-from MusicInpainting.AnticipationRNN.anticipation_rnn_gauss_reg_model import ConstraintModelGaussianReg
-from MusicInpainting.LatentRNN.latent_rnn_trainer import *
+from utils.auxiliary_loss_trainer import AuxiliaryLossTrainer
+from AnticipationRNN.anticipation_rnn_gauss_reg_model import ConstraintModelGaussianReg
+from LatentRNN.latent_rnn_trainer import *
 from DatasetManager.the_session.folk_dataset import FolkDatasetNBars
 
 
