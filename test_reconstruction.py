@@ -1,5 +1,6 @@
 import click
 
+
 from DatasetManager.dataset_manager import DatasetManager
 from DatasetManager.the_session.folk_dataset import FolkDataset
 from DatasetManager.metadata import FermataMetadata, \
@@ -14,6 +15,8 @@ from LatentRNN.latent_rnn_tester import LatentRNNTester
 from AnticipationRNN.anticipation_rnn_tester import AnticipationRNNTester
 from MeasureVAE.vae_tester import *
 from utils.helpers import *
+from AnticipationRNN.anticipation_rnn_gauss_reg_model import ConstraintModelGaussianReg
+
 
 
 @click.command()
