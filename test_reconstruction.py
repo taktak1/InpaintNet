@@ -6,6 +6,10 @@ from DatasetManager.metadata import FermataMetadata, \
     TickMetadata, \
     KeyMetadata, \
     BeatMarkerMetadata
+from MeasureVAE.measure_vae import MeasureVAE
+from LatentRNN.latent_rnn import LatentRNN
+from LatentRNN.latent_rnn_trainer import LatentRNNTrainer
+from LatentRNN.latent_rnn_tester import LatentRNNTester
 from LatentRNN.latent_rnn_tester import LatentRNNTester
 from AnticipationRNN.anticipation_rnn_tester import AnticipationRNNTester
 from MeasureVAE.vae_tester import *
