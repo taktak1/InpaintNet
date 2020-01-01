@@ -15,7 +15,10 @@ from LatentRNN.latent_rnn_tester import LatentRNNTester
 from AnticipationRNN.anticipation_rnn_tester import AnticipationRNNTester
 from MeasureVAE.vae_tester import *
 from utils.helpers import *
-from AnticipationRNN.anticipation_rnn_gauss_reg_model import ConstraintModelGaussianReg
+from AnticipationRNN.anticipation_rnn_gauss_reg_model import *
+
+
+
 
 
 
