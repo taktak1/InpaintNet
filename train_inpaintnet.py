@@ -174,20 +174,22 @@ def main(note_embedding_dim,
     tester.test_model(
         batch_size=batch_size
     )
-    '''
-    gen_score, _, original_score = tester.generation_random(
+    gen_score, score, original_score = tester.generation_random(
         tensor_score=None,
         start_measure=8,
         num_measures_gen=2
     )
+    print( " --- score --- " )
+    print(  score  )
+
     gen_score.show()
     original_score.show()
-
-    gen_score2, _, original_score2 = tester.generation_test()
+    gen_score2, score, original_score2 = tester.generation_test()
     gen_score2.show()
     original_score2.show()
-    '''
 
+    print( " --- score --- " )
+    print(  score  )
 
 if __name__ == '__main__':
     main()
